@@ -1,0 +1,99 @@
+body {
+    background-color: beige;
+    color: grey;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#51e2f5;
+    color: grey;
+    text-align: center;
+    padding: 5px;
+}
+
+.intro {
+    font-family: Monaco;
+    background-color: #9df9ef;
+    color: grey;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Flexbox Example */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.flex-item1 {
+    background-color: #51e2f5;
+    padding: 20px;
+    width: 100px;
+    color: grey;
+    text-align: center;
+}
+
+
+.flex-item2 {
+    background-color: #ffa8b6;
+    padding: 40px;
+    width: 100px;
+    color: grey;
+    text-align: center;
+}
+
+
+.flex-item3 {
+    background-color: #a28089;
+    padding: 60px;
+    width: 100px;
+    color: lightgrey;
+    text-align: center;
+}
+
+/* Grid Layout Example */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: #ffa8b6;
+    padding: 20px;
+    text-align: center;
+    color: grey;
+    padding: 20 px;
+}
+
+/* Positioning Example */
+.relative-box {
+    position: relative;
+    background-color: lightyellow;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: #a28089;
+    color: lightgrey;
+    padding: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #51e2f5;
+    color: grey;
+    text-align: center;
+    padding: 5px;
+}
